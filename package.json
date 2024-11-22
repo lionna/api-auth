@@ -10,7 +10,9 @@
     "test": "jest --coverage -u",
     "lint": "eslint ./**/*.js",
     "format": "prettier --write ./app/**/*.{js,jsx,ts,tsx,css,md,json} --config ./.prettierrc",
-    "prepare": "node ./prepare.js"
+    "prepare": "node ./prepare.js",
+    "audit": "npm audit",
+    "audit-fix": "npm audit fix"
   },
   "keywords": [
     "nodejs",
